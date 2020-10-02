@@ -12,12 +12,12 @@ int main(){
 
 int natural(int x){
     int sum=0;
-    if(x==0 || x==1)
+    if(x==0)
     {
         return x;
     }
     else
-    {   for(int i=0; i<=x; i++)
+    {   for(int i=1; i<=x; i++)
        {
            sum += i;
        }
